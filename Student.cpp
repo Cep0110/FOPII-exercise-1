@@ -32,13 +32,13 @@ public:
 int main() {
     // Create student objects and set their information
     Student student1;
-    student1.setStudentInfo("John Doe", 18, 85.5);
+    student1.setStudentInfo(" Kaleb Tasew", 18, 85.5);
 
     Student student2;
-    student2.setStudentInfo("Jane Smith", 17, 92.0);
+    student2.setStudentInfo("Jemil Abrar", 17, 92.0);
 
     Student student3;
-    student3.setStudentInfo("Bob Johnson", 19, 77.8);
+    student3.setStudentInfo("Biniyam Tesfaye", 19, 77.8);
 
     // Display each student's information
     std::cout << "Student 1: " << student1.getName() << ", Age: " << student1.getAge() << ", Grade: " << student1.getGrade() << std::endl;
